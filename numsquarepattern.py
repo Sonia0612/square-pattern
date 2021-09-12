@@ -1,9 +1,10 @@
+#using range function
 def range_func(n):
     for i in range(n):
         for j in range(n):
             print(i+1,end="")
         print()
-
+#using while function
 def while_func(n):
     i=1
     while i<=n:
